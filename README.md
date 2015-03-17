@@ -2,10 +2,10 @@
 Share your Textexpander files and download shared files (update them automatically with a cron job)
 
 ## Configuration
-Open the file "update.php" with an editor.
+Open `update.php` with an editor of your choice.
 
 ### Identification / Authorization
-Add your email address, pick an username and a password. We wont send any mails, it's just for recovering your password, if you should forget it.
+Add your email address, pick a username and a password. We won't send you any mails, it's just for recovering your password, should you forget it.
 If you're using this script the first time and don't have a user, pick a name, it will create the user with the first request (read the comments in the script for more informations).
 
 ### Groups
@@ -29,8 +29,8 @@ You can use a `~` (tilde) as your $HOME directory.
 The updater creates a cache file. The temp directory is the location, where the file will be created.
 
 ## Cronjob
-Create a cron job which runs the "update.php", like this:
-```
+Create a cronjob to run `update.php` like this:
+```bash
 php -f ~/Documents/update.php
 ```
 
