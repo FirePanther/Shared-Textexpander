@@ -192,6 +192,9 @@ function upload($name, $dict, $snippets) {
 	}
 }
 
+/**
+ * sends a post request and returns the response
+ */
 function post($file, $postData) {
 	$opts = [
 		"http" => [
