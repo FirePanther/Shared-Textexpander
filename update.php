@@ -1,10 +1,10 @@
 #!/usr/bin/php
 <?php
 /**
- * @author			Suat Secmen
- * @copyright		FirePanther (http://firepanther.pro/)
- * @description		Share your Groups automatically
- * @date			2015
+ * @author          Suat Secmen
+ * @copyright       FirePanther (http://firepanther.pro/)
+ * @description     Share your Groups automatically
+ * @date            2015
  */
 
 ### CONFIGURATIONS
