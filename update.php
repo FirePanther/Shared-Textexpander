@@ -115,7 +115,7 @@ file_put_contents($configDir, json_encode($config));
 
 /**
  * finds a dictionary by key and string
- */
+ */
 function findDict($key, $string) {
 	global $dicts;
 	
@@ -127,7 +127,7 @@ function findDict($key, $string) {
 
 /**
  * returns the snippet UUIDs
- */
+ */
 function getSnippetUUIDs($dict) {
 	if (preg_match("~<key>snippetUUIDs</key>(.*?)<key>~s", $dict, $strings)) {
 		if (preg_match_all("~<string>(.*?)</string>~", $strings[1], $uuids)) {
@@ -138,7 +138,7 @@ function getSnippetUUIDs($dict) {
 
 /**
  * returns the string from a key
- */
+ */
 function getStringFromKey($dict, $key, $default = null) {
 	if (preg_match("~<key>".htmlspecialchars($key)."</key>\s*<string>(.*?)</string>~s", $dict, $string)) return $string[1];
 	else return $default;
@@ -146,7 +146,7 @@ function getStringFromKey($dict, $key, $default = null) {
 
 /**
  * update this group, if anything has changed since the last upload
- */
+ */
 function upload($name, $dict, $snippets) {
 	global $config, $email, $username, $password, $hashes;
 	
