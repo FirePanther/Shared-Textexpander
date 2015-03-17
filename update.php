@@ -5,7 +5,7 @@
  * @copyright		FirePanther (http://firepanther.pro/)
  * @description		Share your Groups automatically
  * @date			2015
- */
+ */
 
 ### CONFIGURATIONS
 
