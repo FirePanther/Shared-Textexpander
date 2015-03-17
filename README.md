@@ -10,10 +10,14 @@ If you're using this script the first time and don't have a user, pick a name, i
 
 ### Groups
 You can either use an array for your groups, like this:
+```php
 $groups = ["Shared group", "Testgroup", "HTML5", "PHP Snippets"];
+```
 
 or a comma separated string (the strings will be trimmed):
+```php
 $groups = "Shared group, Testgroup,HTML5, PHP Snippets";
+```
 
 ### Textexpander file
 In the Textexpander preferences, open "Sync" and choose "Dropbox" as synchronization method.
