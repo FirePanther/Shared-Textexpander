@@ -23,16 +23,19 @@ $groups = "Shared group, Testgroup,HTML5, PHP Snippets";
 In the Textexpander preferences, open "Sync" and choose "Dropbox" as synchronization method.
 
 In the "update.php" file write the path to the ".textexpander" file.
-You can use "~" as your $HOME directory.
+You can use a `~` (tilde) as your $HOME directory.
 
 ### temp directory
 The updater creates a cache file. The temp directory is the location, where the file will be created.
 
-## Cron job
+## Cronjob
 Create a cron job which runs the "update.php", like this:
+```
 php -f ~/Documents/update.php
+```
 
 If you don't know how to create a cron job, you can use [Cronnix for OS X](https://code.google.com/p/cronnix/).
+If you edit your snippets very frequently, create a cronjob which will be run daily or more often, otherwise create a cronjob scheduled weekly.
 
 # Contact / Support
 If you have any suggestions or problems, just contact me: textexpander [at] suat [dot] be
