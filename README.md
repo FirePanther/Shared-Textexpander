@@ -37,5 +37,8 @@ php -f ~/Documents/update.php
 If you don't know how to create a cron job, you can use [Cronnix for OS X](https://code.google.com/p/cronnix/).
 If you edit your snippets very frequently, create a cronjob which will be run daily or more often, otherwise create a cronjob scheduled weekly.
 
+## Windows
+Windows users have to install a webserver like [XAMPP](https://www.apachefriends.org/de/index.html)
+
 # Contact / Support
 If you have any suggestions or problems, just contact me: textexpander [at] suat [dot] be
